@@ -1,12 +1,15 @@
 package demo;
 
 public class Location {
-		private String place;
-		public void setPlace(String place) {
-			this.place = place;
+		private String name;
+		private int Lid;
+		private String location_description;
+		public void setPlace(String name) {
+			this.name = name;
 		}
 		public String getPlace() {
-			return this.place;
+			return this.name;
 		}
+		
 	
 }
